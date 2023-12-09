@@ -1,0 +1,8 @@
+// Install uvicorn using pip
+pip install uvicorn
+
+// Run this command line to start server using asgi application
+uvicorn --reload asyncviews.asgi:application
+
+// Command line to install asyncio and httpx
+pip install asyncio httpx
